@@ -1,0 +1,27 @@
+{
+  "name": "shadcn-vue",
+  "version": "0.0.1",
+  "description": "monorepo for shadcn-vue",
+  "author": {
+    "name": "hylarucoder",
+    "url": "https://twitter.com/hylarucoder"
+  },
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter www build",
+    "dev": "pnpm --filter www dev"
+  },
+  "packageManager": "pnpm@8.5.1",
+  "engines": {
+    "pnpm": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huntabyte/shadcn-svelte.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1"
+  }
+}
