@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const online = useOnline()
+const online = useOnline();
 </script>
 
 <template>
@@ -8,9 +8,6 @@ const online = useOnline()
     <Suspense>
       <ClientOnly>
         <PageView v-if="online" />
-        <div v-else text-gray:80>
-          You're offline
-        </div>
       </ClientOnly>
       <template #fallback>
         <div italic op50>

@@ -1,13 +1,18 @@
-import { pwa } from './config/pwa'
-import { appDescription } from './constants/index'
+import { pwa } from "./config/pwa";
+import { appDescription } from "./constants/index";
 
 export default defineNuxtConfig({
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   modules: [
-    '@vueuse/nuxt',
-    '@unocss/nuxt',
-    '@pinia/nuxt',
-    '@nuxtjs/color-mode',
-    '@vite-pwa/nuxt',
+    "@vueuse/nuxt",
+    "@pinia/nuxt",
+    "@nuxtjs/color-mode",
+    "@vite-pwa/nuxt",
   ],
 
   experimental: {
@@ -19,39 +24,61 @@ export default defineNuxtConfig({
     typedPages: true,
   },
 
-  css: [
-    '@unocss/reset/tailwind.css',
-  ],
+  css: ["~/assets/css/globals.css"],
 
   colorMode: {
-    classSuffix: '',
+    classSuffix: "",
   },
 
   nitro: {
     esbuild: {
       options: {
-        target: 'esnext',
+        target: "esnext",
       },
     },
     prerender: {
       crawlLinks: false,
-      routes: ['/'],
-      ignore: ['/hi'],
+      routes: ["/"],
+      ignore: ["/hi"],
     },
   },
 
   app: {
     head: {
-      viewport: 'width=device-width,initial-scale=1',
+      viewport: "width=device-width,initial-scale=1",
       link: [
-        { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
-        { rel: 'icon', type: 'image/svg+xml', href: '/nuxt.svg' },
-        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        {
+          rel: "icon",
+          href: "/favicon.ico",
+          sizes: "any",
+        },
+        {
+          rel: "icon",
+          type: "image/svg+xml",
+          href: "/nuxt.svg",
+        },
+        {
+          rel: "apple-touch-icon",
+          href: "/apple-touch-icon.png",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://rsms.me/inter/inter.css",
+        },
       ],
       meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: appDescription },
-        { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1",
+        },
+        {
+          name: "description",
+          content: appDescription,
+        },
+        {
+          name: "apple-mobile-web-app-status-bar-style",
+          content: "black-translucent",
+        },
       ],
     },
   },
@@ -61,4 +88,4 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-})
+});
