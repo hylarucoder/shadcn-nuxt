@@ -884,8 +884,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import NavHeader from "~/components/NavHeader.vue";
-import NavFooter from "~/components/PageFooter.vue";
 import DocumentSidebar from "~/components/DocumentSidebar.vue";
 </script>
 <script lang="ts">
