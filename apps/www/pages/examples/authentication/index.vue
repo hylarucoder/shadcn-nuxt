@@ -173,12 +173,12 @@
         </section>
       </div>
     </div>
-    <PageFooter />
+    <NavFooter />
   </div>
 </template>
 <script setup lang="ts">
 import NavHeader from "~/components/NavHeader.vue";
-import PageFooter from "~/components/PageFooter.vue";
+import NavFooter from "~/components/PageFooter.vue";
 import ExampleHero from "~/components/ExampleHero.vue";
 import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue";
 </script>

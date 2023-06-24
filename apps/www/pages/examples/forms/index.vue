@@ -285,6 +285,6 @@ I own a computer.</textarea
 <script setup lang="ts">
 import ExampleHero from "~/components/ExampleHero.vue";
 import NavHeader from "~/components/NavHeader.vue";
-import PageFooter from "~/components/PageFooter.vue";
+import NavFooter from "~/components/PageFooter.vue";
 import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue";
 </script>
