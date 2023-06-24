@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "build": "pnpm --filter www build",
-    "dev": "pnpm --filter www dev"
+    "dev": "pnpm --filter www dev",
+    "prepare": "husky install"
   },
   "packageManager": "pnpm@8.5.1",
   "engines": {
@@ -22,6 +23,13 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "@changesets/cli": "^2.26.1"
+    "@changesets/cli": "^2.26.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,cjs,mjs,vue}": "eslint --fix",
+    "*.{ts,tsx,js,jsx,cjs,mjs,css,scss,less,md,vue}": "prettier --write"
   }
 }
