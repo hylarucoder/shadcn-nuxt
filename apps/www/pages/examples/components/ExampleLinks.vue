@@ -37,7 +37,7 @@
       target="_blank"
       rel="nofollow"
       class="absolute right-0 top-0 hidden items-center rounded-[0.5rem] text-sm font-medium md:flex"
-      href="https://github.com/shadcn/ui/tree/main/apps/www/app/examples/tasks"
+      href="https://github.com/hylarucoder/shadcn-vue/tree/main/apps/www/app/examples/tasks"
       >View code
       <svg
         xmlns="http://www.w3.org/2000/svg"

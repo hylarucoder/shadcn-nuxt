@@ -385,7 +385,7 @@
               >shadcn</a
             >. The source code is available on<!-- -->
             <a
-              href="https://github.com/shadcn/ui"
+              href="https://github.com/hylarucoder/shadcn-vue"
               target="_blank"
               rel="noreferrer"
               class="font-medium underline underline-offset-4"

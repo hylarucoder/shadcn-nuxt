@@ -33,7 +33,7 @@
             >Examples</a
           ><a
             class="hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
-            href="https://github.com/shadcn/ui"
+            href="https://github.com/hylarucoder/shadcn-vue"
             >GitHub</a
           >
         </nav>
@@ -83,7 +83,7 @@
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/shadcn/ui"
+            href="https://github.com/hylarucoder/shadcn-vue"
           >
             <div
               class="inline-flex items-center justify-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md w-9 px-0"
