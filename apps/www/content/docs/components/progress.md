@@ -1,5 +1,5 @@
-# alert
+# progress
 
-::Alert
+::Progress
 The **alert** component.
 ::

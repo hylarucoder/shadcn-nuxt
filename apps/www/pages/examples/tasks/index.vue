@@ -35,9 +35,7 @@
       <div class="flex items-center justify-between space-y-2">
         <div>
           <h2 class="text-2xl font-bold tracking-tight">Welcome back!</h2>
-          <p class="text-muted-foreground">
-            Here's a list of your tasks for this month!
-          </p>
+          <p class="text-muted-foreground">Here's a list of your tasks for this month!</p>
         </div>
         <div class="flex items-center space-x-2">
           <button
@@ -48,12 +46,8 @@
             aria-expanded="false"
             data-state="closed"
           >
-            <span
-              class="relative flex shrink-0 overflow-hidden rounded-full h-9 w-9"
-              ><img
-                class="aspect-square h-full w-full"
-                alt="@shadcn"
-                src="/avatars/03.png"
+            <span class="relative flex shrink-0 overflow-hidden rounded-full h-9 w-9"
+              ><img class="aspect-square h-full w-full" alt="@shadcn" src="/avatars/03.png"
             /></span>
           </button>
         </div>
@@ -156,9 +150,7 @@
           <div class="w-full overflow-auto">
             <table class="w-full caption-bottom text-sm">
               <thead class="[&amp;_tr]:border-b">
-                <tr
-                  class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
-                >
+                <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
                   <th
                     class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0"
                   >
@@ -280,9 +272,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -293,14 +283,10 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-8782</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
@@ -308,14 +294,11 @@
                         Documentation
                       </div>
                       <span class="max-w-[500px] truncate font-medium"
-                        >You can't compress the program without quantifying the
-                        open-source SSD pixel!</span
+                        >You can't compress the program without quantifying the open-source SSD pixel!</span
                       >
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -336,9 +319,7 @@
                       <span>In Progress</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -359,9 +340,7 @@
                       <span>Medium</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -394,9 +373,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -407,14 +384,10 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-7878</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
@@ -422,14 +395,11 @@
                         Documentation
                       </div>
                       <span class="max-w-[500px] truncate font-medium"
-                        >Try to calculate the EXE feed, maybe it will index the
-                        multi-byte pixel!</span
+                        >Try to calculate the EXE feed, maybe it will index the multi-byte pixel!</span
                       >
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -450,9 +420,7 @@
                       <span>Backlog</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -473,9 +441,7 @@
                       <span>Medium</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -508,9 +474,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -521,28 +485,20 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-7839</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
                       >
                         Bug
                       </div>
-                      <span class="max-w-[500px] truncate font-medium"
-                        >We need to bypass the neural TCP card!</span
-                      >
+                      <span class="max-w-[500px] truncate font-medium">We need to bypass the neural TCP card!</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -561,9 +517,7 @@
                       <span>Todo</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -584,9 +538,7 @@
                       <span>High</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -619,9 +571,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -632,14 +582,10 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-5562</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
@@ -647,14 +593,12 @@
                         Feature
                       </div>
                       <span class="max-w-[500px] truncate font-medium"
-                        >The SAS interface is down, bypass the open-source pixel
-                        so we can back up the PNG bandwidth!</span
+                        >The SAS interface is down, bypass the open-source pixel so we can back up the PNG
+                        bandwidth!</span
                       >
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -675,9 +619,7 @@
                       <span>Backlog</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -698,9 +640,7 @@
                       <span>Medium</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -733,9 +673,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -746,14 +684,10 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-8686</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
@@ -761,14 +695,11 @@
                         Feature
                       </div>
                       <span class="max-w-[500px] truncate font-medium"
-                        >I'll parse the wireless SSL protocol, that should
-                        driver the API panel!</span
+                        >I'll parse the wireless SSL protocol, that should driver the API panel!</span
                       >
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -789,9 +720,7 @@
                       <span>Canceled</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -812,9 +741,7 @@
                       <span>Medium</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -847,9 +774,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -860,14 +785,10 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-1280</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
@@ -875,14 +796,11 @@
                         Bug
                       </div>
                       <span class="max-w-[500px] truncate font-medium"
-                        >Use the digital TLS panel, then you can transmit the
-                        haptic system!</span
+                        >Use the digital TLS panel, then you can transmit the haptic system!</span
                       >
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -896,17 +814,13 @@
                         stroke-linejoin="round"
                         class="mr-2 h-4 w-4 text-muted-foreground"
                       >
-                        <path
-                          d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
-                        ></path>
+                        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
                         <path d="m9 12 2 2 4-4"></path>
                       </svg>
                       <span>Done</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -927,9 +841,7 @@
                       <span>High</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -962,9 +874,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -975,14 +885,10 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-7262</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
@@ -990,14 +896,12 @@
                         Feature
                       </div>
                       <span class="max-w-[500px] truncate font-medium"
-                        >The UTF8 application is down, parse the neural
-                        bandwidth so we can back up the PNG firewall!</span
+                        >The UTF8 application is down, parse the neural bandwidth so we can back up the PNG
+                        firewall!</span
                       >
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1011,17 +915,13 @@
                         stroke-linejoin="round"
                         class="mr-2 h-4 w-4 text-muted-foreground"
                       >
-                        <path
-                          d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
-                        ></path>
+                        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
                         <path d="m9 12 2 2 4-4"></path>
                       </svg>
                       <span>Done</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1042,9 +942,7 @@
                       <span>High</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -1077,9 +975,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -1090,14 +986,10 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-1138</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
@@ -1105,14 +997,11 @@
                         Feature
                       </div>
                       <span class="max-w-[500px] truncate font-medium"
-                        >Generating the driver won't do anything, we need to
-                        quantify the 1080p SMTP bandwidth!</span
+                        >Generating the driver won't do anything, we need to quantify the 1080p SMTP bandwidth!</span
                       >
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1133,9 +1022,7 @@
                       <span>In Progress</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1156,9 +1043,7 @@
                       <span>Medium</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -1191,9 +1076,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -1204,28 +1087,20 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-7184</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
                       >
                         Feature
                       </div>
-                      <span class="max-w-[500px] truncate font-medium"
-                        >We need to program the back-end THX pixel!</span
-                      >
+                      <span class="max-w-[500px] truncate font-medium">We need to program the back-end THX pixel!</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1244,9 +1119,7 @@
                       <span>Todo</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1267,9 +1140,7 @@
                       <span>Low</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -1302,9 +1173,7 @@
                   class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"
                   data-state="false"
                 >
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       type="button"
                       role="checkbox"
@@ -1315,14 +1184,10 @@
                       aria-label="Select row"
                     ></button>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="w-[80px]">TASK-5160</div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex space-x-2">
                       <div
                         class="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
@@ -1330,14 +1195,11 @@
                         Documentation
                       </div>
                       <span class="max-w-[500px] truncate font-medium"
-                        >Calculating the bus won't do anything, we need to
-                        navigate the back-end JSON protocol!</span
+                        >Calculating the bus won't do anything, we need to navigate the back-end JSON protocol!</span
                       >
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex w-[100px] items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1358,9 +1220,7 @@
                       <span>In Progress</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <div class="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1381,9 +1241,7 @@
                       <span>High</span>
                     </div>
                   </td>
-                  <td
-                    class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0"
-                  >
+                  <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
                     <button
                       class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted"
                       type="button"
@@ -1417,9 +1275,7 @@
           </div>
         </div>
         <div class="flex items-center justify-between px-2">
-          <div class="flex-1 text-sm text-muted-foreground">
-            0 of 100 row(s) selected.
-          </div>
+          <div class="flex-1 text-sm text-muted-foreground">0 of 100 row(s) selected.</div>
           <div class="flex items-center space-x-6 lg:space-x-8">
             <div class="flex items-center space-x-2">
               <p class="text-sm font-medium">Rows per page</p>
@@ -1451,11 +1307,7 @@
                 </svg>
               </button>
             </div>
-            <div
-              class="flex w-[100px] items-center justify-center text-sm font-medium"
-            >
-              Page 1 of 10
-            </div>
+            <div class="flex w-[100px] items-center justify-center text-sm font-medium">Page 1 of 10</div>
             <div class="flex items-center space-x-2">
               <button
                 class="items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background border border-input hover:bg-accent hover:text-accent-foreground hidden h-8 w-8 p-0 lg:flex"
@@ -1545,8 +1397,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import ExampleHero from "~/components/ExampleHero.vue";
-import NavHeader from "~/components/NavHeader.vue";
-import NavFooter from "~/components/PageFooter.vue";
-import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue";
+import ExampleHero from "~/components/ExampleHero.vue"
+import NavHeader from "~/components/NavHeader.vue"
+import NavFooter from "~/components/PageFooter.vue"
+import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue"
 </script>

@@ -12,5 +12,5 @@ useHead({
   htmlAttrs: {
     style: "color-scheme: light;",
   },
-});
+})
 </script>

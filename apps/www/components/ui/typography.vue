@@ -19,8 +19,6 @@
       <line x1="12" x2="20" y1="19" y2="19"></line>
     </svg>
     <h5 class="mb-1 font-medium leading-none tracking-tight">Heads up!</h5>
-    <div class="text-sm [&amp;_p]:leading-relaxed">
-      You can add components to your app using the cli.
-    </div>
+    <div class="text-sm [&amp;_p]:leading-relaxed">You can add components to your app using the cli.</div>
   </div>
 </template>

@@ -3,12 +3,7 @@
     <div class="flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0">
       <div class="space-y-4 rdp-caption_start rdp-caption_end">
         <div class="flex justify-center pt-1 relative items-center">
-          <div
-            class="text-sm font-medium"
-            aria-live="polite"
-            role="presentation"
-            id="react-day-picker-1"
-          >
+          <div class="text-sm font-medium" aria-live="polite" role="presentation" id="react-day-picker-1">
             June 2023
           </div>
           <div class="space-x-1 flex items-center">
@@ -56,11 +51,7 @@
             </button>
           </div>
         </div>
-        <table
-          class="w-full border-collapse space-y-1"
-          role="grid"
-          aria-labelledby="react-day-picker-1"
-        >
+        <table class="w-full border-collapse space-y-1" role="grid" aria-labelledby="react-day-picker-1">
           <thead class="rdp-head">
             <tr class="flex">
               <th

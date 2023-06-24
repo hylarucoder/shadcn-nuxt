@@ -1,5 +1,5 @@
-# alert
+# sheet
 
-::Alert
+::Sheet
 The **alert** component.
 ::

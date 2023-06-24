@@ -1,5 +1,5 @@
-# alert
+# dropdown menu
 
-::Alert
+::DropdownMenu
 The **alert** component.
 ::

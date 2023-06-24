@@ -10,6 +10,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import ExampleHero from "~/components/ExampleHero.vue";
-import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue";
+import ExampleHero from "~/components/ExampleHero.vue"
+import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue"
 </script>

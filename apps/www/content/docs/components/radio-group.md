@@ -1,5 +1,5 @@
-# alert
+# radio-group
 
-::Alert
+::RadioGroup
 The **alert** component.
 ::

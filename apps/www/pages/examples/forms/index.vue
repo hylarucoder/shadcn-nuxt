@@ -34,18 +34,10 @@
     <div class="hidden space-y-6 p-10 pb-16 md:block">
       <div class="space-y-0.5">
         <h2 class="text-2xl font-bold tracking-tight">Settings</h2>
-        <p class="text-muted-foreground">
-          Manage your account settings and set e-mail preferences.
-        </p>
+        <p class="text-muted-foreground">Manage your account settings and set e-mail preferences.</p>
       </div>
-      <div
-        data-orientation="horizontal"
-        role="none"
-        class="shrink-0 bg-border h-[1px] w-full my-6"
-      ></div>
-      <div
-        class="flex flex-col space-y-8 lg:flex-row lg:space-x-12 lg:space-y-0"
-      >
+      <div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full my-6"></div>
+      <div class="flex flex-col space-y-8 lg:flex-row lg:space-x-12 lg:space-y-0">
         <aside class="-mx-4 lg:w-1/5">
           <nav class="flex space-x-2 lg:flex-col lg:space-x-0 lg:space-y-1">
             <a
@@ -75,15 +67,9 @@
           <div class="space-y-6">
             <div>
               <h3 class="text-lg font-medium">Profile</h3>
-              <p class="text-sm text-muted-foreground">
-                This is how others will see you on the site.
-              </p>
+              <p class="text-sm text-muted-foreground">This is how others will see you on the site.</p>
             </div>
-            <div
-              data-orientation="horizontal"
-              role="none"
-              class="shrink-0 bg-border h-[1px] w-full"
-            ></div>
+            <div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full"></div>
             <form class="space-y-8">
               <div class="space-y-2">
                 <label
@@ -98,12 +84,9 @@
                   aria-invalid="false"
                   name="username"
                 />
-                <p
-                  id=":r88:-form-item-description"
-                  class="text-sm text-muted-foreground"
-                >
-                  This is your public display name. It can be your real name or
-                  a pseudonym. You can only change this once every 30 days.
+                <p id=":r88:-form-item-description" class="text-sm text-muted-foreground">
+                  This is your public display name. It can be your real name or a pseudonym. You can only change this
+                  once every 30 days.
                 </p>
               </div>
               <div class="space-y-2">
@@ -126,9 +109,7 @@
                   aria-describedby=":r89:-form-item-description"
                   aria-invalid="false"
                 >
-                  <span style="pointer-events: none"
-                    >Select a verified email to display</span
-                  >
+                  <span style="pointer-events: none">Select a verified email to display</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -166,10 +147,7 @@
                   <option value="m@google.com">m@google.com</option>
                   <option value="m@support.com">m@support.com</option>
                 </select>
-                <p
-                  id=":r89:-form-item-description"
-                  class="text-sm text-muted-foreground"
-                >
+                <p id=":r89:-form-item-description" class="text-sm text-muted-foreground">
                   You can manage verified email addresses in your
                   <a href="/examples/forms">email settings</a>.
                 </p>
@@ -189,12 +167,8 @@
                 >
 I own a computer.</textarea
                 >
-                <p
-                  id=":r8b:-form-item-description"
-                  class="text-sm text-muted-foreground"
-                >
-                  You can <span>@mention</span> other users and organizations to
-                  link to them.
+                <p id=":r8b:-form-item-description" class="text-sm text-muted-foreground">
+                  You can <span>@mention</span> other users and organizations to link to them.
                 </p>
               </div>
               <div>
@@ -204,10 +178,7 @@ I own a computer.</textarea
                     for=":r8c:-form-item"
                     >URLs</label
                   >
-                  <p
-                    id=":r8c:-form-item-description"
-                    class="text-sm text-muted-foreground"
-                  >
+                  <p id=":r8c:-form-item-description" class="text-sm text-muted-foreground">
                     Add links to your website, blog, or social media profiles.
                   </p>
                   <input
@@ -225,10 +196,7 @@ I own a computer.</textarea
                     for=":r8d:-form-item"
                     >URLs</label
                   >
-                  <p
-                    id=":r8d:-form-item-description"
-                    class="text-sm text-muted-foreground sr-only"
-                  >
+                  <p id=":r8d:-form-item-description" class="text-sm text-muted-foreground sr-only">
                     Add links to your website, blog, or social media profiles.
                   </p>
                   <input
@@ -261,8 +229,8 @@ I own a computer.</textarea
   </div>
 </template>
 <script setup lang="ts">
-import ExampleHero from "~/components/ExampleHero.vue";
-import NavHeader from "~/components/NavHeader.vue";
-import NavFooter from "~/components/PageFooter.vue";
-import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue";
+import ExampleHero from "~/components/ExampleHero.vue"
+import NavHeader from "~/components/NavHeader.vue"
+import NavFooter from "~/components/PageFooter.vue"
+import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue"
 </script>

@@ -31,19 +31,13 @@
         style="color: transparent"
       />
     </div>
-    <div
-      class="hidden items-start justify-center gap-6 rounded-lg p-8 md:grid lg:grid-cols-2 xl:grid-cols-3"
-    >
+    <div class="hidden items-start justify-center gap-6 rounded-lg p-8 md:grid lg:grid-cols-2 xl:grid-cols-3">
       <div class="col-span-2 grid items-start gap-6 lg:col-span-1">
         <div class="flex items-center justify-center [&amp;>div]:w-full">
           <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
             <div class="flex flex-col p-6 space-y-1">
-              <h3 class="font-semibold tracking-tight text-2xl">
-                Create an account
-              </h3>
-              <p class="text-sm text-muted-foreground">
-                Enter your email below to create your account
-              </p>
+              <h3 class="font-semibold tracking-tight text-2xl">Create an account</h3>
+              <p class="text-sm text-muted-foreground">Enter your email below to create your account</p>
             </div>
             <div class="p-6 pt-0 grid gap-4">
               <div class="grid grid-cols-2 gap-6">
@@ -75,9 +69,7 @@
                   <span class="w-full border-t"></span>
                 </div>
                 <div class="relative flex justify-center text-xs uppercase">
-                  <span class="bg-background px-2 text-muted-foreground"
-                    >Or continue with</span
-                  >
+                  <span class="bg-background px-2 text-muted-foreground">Or continue with</span>
                 </div>
               </div>
               <div class="grid gap-2">
@@ -116,12 +108,8 @@
         <div class="flex items-center justify-center [&amp;>div]:w-full">
           <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
             <div class="flex flex-col space-y-1.5 p-6">
-              <h3 class="text-lg font-semibold leading-none tracking-tight">
-                Payment Method
-              </h3>
-              <p class="text-sm text-muted-foreground">
-                Add a new payment method to your account.
-              </p>
+              <h3 class="text-lg font-semibold leading-none tracking-tight">Payment Method</h3>
+              <p class="text-sm text-muted-foreground">Add a new payment method to your account.</p>
             </div>
             <div class="p-6 pt-0 grid gap-6">
               <div
@@ -147,9 +135,7 @@
                     tabindex="-1"
                     data-radix-collection-item=""
                   >
-                    <span
-                      data-state="checked"
-                      class="flex items-center justify-center"
+                    <span data-state="checked" class="flex items-center justify-center"
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -349,21 +335,14 @@
         <div class="flex items-center justify-center [&amp;>div]:w-full">
           <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
             <div class="flex flex-col space-y-1.5 p-6">
-              <h3 class="text-lg font-semibold leading-none tracking-tight">
-                Team Members
-              </h3>
-              <p class="text-sm text-muted-foreground">
-                Invite your team members to collaborate.
-              </p>
+              <h3 class="text-lg font-semibold leading-none tracking-tight">Team Members</h3>
+              <p class="text-sm text-muted-foreground">Invite your team members to collaborate.</p>
             </div>
             <div class="p-6 pt-0 grid gap-6">
               <div class="flex items-center justify-between space-x-4">
                 <div class="flex items-center space-x-4">
-                  <span
-                    class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
-                    ><img
-                      class="aspect-square h-full w-full"
-                      src="/avatars/01.png"
+                  <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                    ><img class="aspect-square h-full w-full" src="/avatars/01.png"
                   /></span>
                   <div>
                     <p class="text-sm font-medium leading-none">Sofia Davis</p>
@@ -397,11 +376,8 @@
               </div>
               <div class="flex items-center justify-between space-x-4">
                 <div class="flex items-center space-x-4">
-                  <span
-                    class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
-                    ><img
-                      class="aspect-square h-full w-full"
-                      src="/avatars/02.png"
+                  <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                    ><img class="aspect-square h-full w-full" src="/avatars/02.png"
                   /></span>
                   <div>
                     <p class="text-sm font-medium leading-none">Jackson Lee</p>
@@ -439,12 +415,8 @@
         <div class="flex items-center justify-center [&amp;>div]:w-full">
           <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
             <div class="flex flex-col space-y-1.5 p-6">
-              <h3 class="text-lg font-semibold leading-none tracking-tight">
-                Share this document
-              </h3>
-              <p class="text-sm text-muted-foreground">
-                Anyone with the link can view this document.
-              </p>
+              <h3 class="text-lg font-semibold leading-none tracking-tight">Share this document</h3>
+              <p class="text-sm text-muted-foreground">Anyone with the link can view this document.</p>
             </div>
             <div class="p-6 pt-0">
               <div class="flex space-x-2">
@@ -459,29 +431,18 @@
                   Copy Link
                 </button>
               </div>
-              <div
-                data-orientation="horizontal"
-                role="none"
-                class="shrink-0 bg-border h-[1px] w-full my-4"
-              ></div>
+              <div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full my-4"></div>
               <div class="space-y-4">
                 <h4 class="text-sm font-medium">People with access</h4>
                 <div class="grid gap-6">
                   <div class="flex items-center justify-between space-x-4">
                     <div class="flex items-center space-x-4">
-                      <span
-                        class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
-                        ><img
-                          class="aspect-square h-full w-full"
-                          src="/avatars/03.png"
+                      <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                        ><img class="aspect-square h-full w-full" src="/avatars/03.png"
                       /></span>
                       <div>
-                        <p class="text-sm font-medium leading-none">
-                          Olivia Martin
-                        </p>
-                        <p class="text-sm text-muted-foreground">
-                          m@example.com
-                        </p>
+                        <p class="text-sm font-medium leading-none">Olivia Martin</p>
+                        <p class="text-sm text-muted-foreground">m@example.com</p>
                       </div>
                     </div>
                     <button
@@ -514,19 +475,12 @@
                   </div>
                   <div class="flex items-center justify-between space-x-4">
                     <div class="flex items-center space-x-4">
-                      <span
-                        class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
-                        ><img
-                          class="aspect-square h-full w-full"
-                          src="/avatars/05.png"
+                      <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                        ><img class="aspect-square h-full w-full" src="/avatars/05.png"
                       /></span>
                       <div>
-                        <p class="text-sm font-medium leading-none">
-                          Isabella Nguyen
-                        </p>
-                        <p class="text-sm text-muted-foreground">
-                          b@example.com
-                        </p>
+                        <p class="text-sm font-medium leading-none">Isabella Nguyen</p>
+                        <p class="text-sm text-muted-foreground">b@example.com</p>
                       </div>
                     </div>
                     <button
@@ -559,19 +513,12 @@
                   </div>
                   <div class="flex items-center justify-between space-x-4">
                     <div class="flex items-center space-x-4">
-                      <span
-                        class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
-                        ><img
-                          class="aspect-square h-full w-full"
-                          src="/avatars/01.png"
+                      <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                        ><img class="aspect-square h-full w-full" src="/avatars/01.png"
                       /></span>
                       <div>
-                        <p class="text-sm font-medium leading-none">
-                          Sofia Davis
-                        </p>
-                        <p class="text-sm text-muted-foreground">
-                          p@example.com
-                        </p>
+                        <p class="text-sm font-medium leading-none">Sofia Davis</p>
+                        <p class="text-sm text-muted-foreground">p@example.com</p>
                       </div>
                     </div>
                     <button
@@ -638,14 +585,7 @@
                       stroke-linejoin="round"
                       class="mr-2 h-4 w-4"
                     >
-                      <rect
-                        width="18"
-                        height="18"
-                        x="3"
-                        y="4"
-                        rx="2"
-                        ry="2"
-                      ></rect>
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
                       <line x1="16" x2="16" y1="2" y2="6"></line>
                       <line x1="8" x2="8" y1="2" y2="6"></line>
                       <line x1="3" x2="21" y1="10" y2="10"></line>
@@ -660,17 +600,11 @@
         <div class="flex items-center justify-center [&amp;>div]:w-full">
           <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
             <div class="flex flex-col space-y-1.5 p-6">
-              <h3 class="text-lg font-semibold leading-none tracking-tight">
-                Notifications
-              </h3>
-              <p class="text-sm text-muted-foreground">
-                Choose what you want to be notified about.
-              </p>
+              <h3 class="text-lg font-semibold leading-none tracking-tight">Notifications</h3>
+              <p class="text-sm text-muted-foreground">Choose what you want to be notified about.</p>
             </div>
             <div class="grid gap-1 p-1.5">
-              <div
-                class="flex items-center space-x-4 rounded-md p-2 hover:bg-accent hover:text-accent-foreground"
-              >
+              <div class="flex items-center space-x-4 rounded-md p-2 hover:bg-accent hover:text-accent-foreground">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -688,14 +622,10 @@
                 </svg>
                 <div class="space-y-1">
                   <p class="text-sm font-medium leading-none">Everything</p>
-                  <p class="text-sm text-muted-foreground">
-                    Email digest, mentions &amp; all activity.
-                  </p>
+                  <p class="text-sm text-muted-foreground">Email digest, mentions &amp; all activity.</p>
                 </div>
               </div>
-              <div
-                class="flex items-center space-x-4 rounded-md bg-accent p-2 text-accent-foreground"
-              >
+              <div class="flex items-center space-x-4 rounded-md bg-accent p-2 text-accent-foreground">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -713,14 +643,10 @@
                 </svg>
                 <div class="space-y-1">
                   <p class="text-sm font-medium leading-none">Available</p>
-                  <p class="text-sm text-muted-foreground">
-                    Only mentions and comments.
-                  </p>
+                  <p class="text-sm text-muted-foreground">Only mentions and comments.</p>
                 </div>
               </div>
-              <div
-                class="flex items-center space-x-4 rounded-md p-2 hover:bg-accent hover:text-accent-foreground"
-              >
+              <div class="flex items-center space-x-4 rounded-md p-2 hover:bg-accent hover:text-accent-foreground">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -740,27 +666,19 @@
                 </svg>
                 <div class="space-y-1">
                   <p class="text-sm font-medium leading-none">Ignoring</p>
-                  <p class="text-sm text-muted-foreground">
-                    Turn off all notifications.
-                  </p>
+                  <p class="text-sm text-muted-foreground">Turn off all notifications.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="col-span-2 grid items-start gap-6 lg:col-span-1 lg:grid-cols-2 xl:grid-cols-1"
-      >
+      <div class="col-span-2 grid items-start gap-6 lg:col-span-1 lg:grid-cols-2 xl:grid-cols-1">
         <div class="flex items-center justify-center [&amp;>div]:w-full">
           <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
             <div class="flex flex-col space-y-1.5 p-6">
-              <h3 class="text-lg font-semibold leading-none tracking-tight">
-                Report an issue
-              </h3>
-              <p class="text-sm text-muted-foreground">
-                What area are you having problems with?
-              </p>
+              <h3 class="text-lg font-semibold leading-none tracking-tight">Report an issue</h3>
+              <p class="text-sm text-muted-foreground">What area are you having problems with?</p>
             </div>
             <div class="p-6 pt-0 grid gap-6">
               <div class="grid grid-cols-2 gap-4">
@@ -874,21 +792,14 @@
         </div>
         <div class="flex items-center justify-center [&amp;>div]:w-full">
           <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-            <div
-              class="flex-col p-6 grid grid-cols-[1fr_110px] items-start gap-4 space-y-0"
-            >
+            <div class="flex-col p-6 grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
               <div class="space-y-1">
-                <h3 class="text-lg font-semibold leading-none tracking-tight">
-                  shadcn/ui
-                </h3>
+                <h3 class="text-lg font-semibold leading-none tracking-tight">shadcn/ui</h3>
                 <p class="text-sm text-muted-foreground">
-                  Beautifully designed components built with Radix UI and
-                  Tailwind CSS.
+                  Beautifully designed components built with Radix UI and Tailwind CSS.
                 </p>
               </div>
-              <div
-                class="flex items-center space-x-1 rounded-md bg-secondary text-secondary-foreground"
-              >
+              <div class="flex items-center space-x-1 rounded-md bg-secondary text-secondary-foreground">
                 <button
                   class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 py-2 px-3"
                 >
@@ -910,11 +821,7 @@
                   </svg>
                   Star
                 </button>
-                <div
-                  data-orientation="vertical"
-                  role="none"
-                  class="shrink-0 bg-border w-[1px] h-[20px]"
-                ></div>
+                <div data-orientation="vertical" role="none" class="shrink-0 bg-border w-[1px] h-[20px]"></div>
                 <button
                   class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 py-2 px-2"
                   type="button"
@@ -986,12 +893,8 @@
         <div class="flex items-center justify-center [&amp;>div]:w-full">
           <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
             <div class="flex flex-col space-y-1.5 p-6">
-              <h3 class="text-lg font-semibold leading-none tracking-tight">
-                Cookie Settings
-              </h3>
-              <p class="text-sm text-muted-foreground">
-                Manage your cookie settings here.
-              </p>
+              <h3 class="text-lg font-semibold leading-none tracking-tight">Cookie Settings</h3>
+              <p class="text-sm text-muted-foreground">Manage your cookie settings here.</p>
             </div>
             <div class="p-6 pt-0 grid gap-6">
               <div class="flex items-center justify-between space-x-2">
@@ -1000,8 +903,7 @@
                   for="necessary"
                   ><span>Strictly Necessary</span
                   ><span class="font-normal leading-snug text-muted-foreground"
-                    >These cookies are essential in order to use the website and
-                    use its features.</span
+                    >These cookies are essential in order to use the website and use its features.</span
                   ></label
                 >
                 <button
@@ -1025,8 +927,7 @@
                   for="functional"
                   ><span>Functional Cookies</span
                   ><span class="font-normal leading-snug text-muted-foreground"
-                    >These cookies allow the website to provide personalized
-                    functionality.</span
+                    >These cookies allow the website to provide personalized functionality.</span
                   ></label
                 >
                 <button
@@ -1050,8 +951,7 @@
                   for="performance"
                   ><span>Performance Cookies</span
                   ><span class="font-normal leading-snug text-muted-foreground"
-                    >These cookies help to improve the performance of the
-                    website.</span
+                    >These cookies help to improve the performance of the website.</span
                   ></label
                 >
                 <button
@@ -1084,8 +984,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import ExampleHero from "~/components/ExampleHero.vue";
-import NavHeader from "~/components/NavHeader.vue";
-import NavFooter from "~/components/PageFooter.vue";
-import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue";
+import ExampleHero from "~/components/ExampleHero.vue"
+import NavHeader from "~/components/NavHeader.vue"
+import NavFooter from "~/components/PageFooter.vue"
+import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue"
 </script>

@@ -37,19 +37,13 @@
         data-orientation="vertical"
         class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
         style="
-          --radix-accordion-content-height: var(
-            --radix-collapsible-content-height
-          );
-          --radix-accordion-content-width: var(
-            --radix-collapsible-content-width
-          );
+          --radix-accordion-content-height: var(--radix-collapsible-content-height);
+          --radix-accordion-content-width: var(--radix-collapsible-content-width);
           --radix-collapsible-content-height: 36px;
           --radix-collapsible-content-width: 443.796875px;
         "
       >
-        <div class="pb-4 pt-0">
-          Yes. It adheres to the WAI-ARIA design pattern.
-        </div>
+        <div class="pb-4 pt-0">Yes. It adheres to the WAI-ARIA design pattern.</div>
       </div>
     </div>
     <div data-state="closed" data-orientation="vertical" class="border-b">
@@ -89,12 +83,8 @@
         data-orientation="vertical"
         class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
         style="
-          --radix-accordion-content-height: var(
-            --radix-collapsible-content-height
-          );
-          --radix-accordion-content-width: var(
-            --radix-collapsible-content-width
-          );
+          --radix-accordion-content-height: var(--radix-collapsible-content-height);
+          --radix-accordion-content-width: var(--radix-collapsible-content-width);
           --radix-collapsible-content-height: 56px;
           --radix-collapsible-content-width: 443.796875px;
         "
@@ -138,12 +128,8 @@
         data-orientation="vertical"
         class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
         style="
-          --radix-accordion-content-height: var(
-            --radix-collapsible-content-height
-          );
-          --radix-accordion-content-width: var(
-            --radix-collapsible-content-width
-          );
+          --radix-accordion-content-height: var(--radix-collapsible-content-height);
+          --radix-accordion-content-width: var(--radix-collapsible-content-width);
           --radix-collapsible-content-height: 36px;
           --radix-collapsible-content-width: 443.796875px;
         "
@@ -154,9 +140,9 @@
 </template>
 
 <script lang="ts" setup>
-import { defineComponent } from "vue";
+import { defineComponent } from "vue"
 
 defineComponent({
   name: "Accordion",
-});
+})
 </script>

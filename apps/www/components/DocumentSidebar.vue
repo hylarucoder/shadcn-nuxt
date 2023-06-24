@@ -1,31 +1,18 @@
 <template>
-  <aside
-    class="fixed top-14 z-30 -ml-2 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 md:sticky md:block"
-  >
+  <aside class="fixed top-14 z-30 -ml-2 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 md:sticky md:block">
     <div
       dir="ltr"
       class="relative overflow-hidden h-full py-6 pl-8 pr-6 lg:py-8"
-      style="
-        position: relative;
-        --radix-scroll-area-corner-width: 0px;
-        --radix-scroll-area-corner-height: 0px;
-      "
+      style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px"
     >
-      <div
-        data-radix-scroll-area-viewport=""
-        class="h-full w-full rounded-[inherit]"
-        style="overflow: hidden scroll"
-      >
+      <div data-radix-scroll-area-viewport="" class="h-full w-full rounded-[inherit]" style="overflow: hidden scroll">
         <div style="min-width: 100%; display: table">
           <div class="w-full">
             <div class="pb-4" v-for="group in groups">
               <h4 class="mb-1 rounded-md px-2 py-1 text-sm font-semibold">
                 {{ group.name }}
               </h4>
-              <div
-                class="grid grid-flow-row auto-rows-max text-sm"
-                v-for="child in group.children"
-              >
+              <div class="grid grid-flow-row auto-rows-max text-sm" v-for="child in group.children">
                 <NuxtLink
                   class="group flex w-full items-center rounded-md border border-transparent px-2 py-1 hover:underline text-muted-foreground"
                   :to="child.link"
@@ -42,11 +29,11 @@
   </aside>
 </template>
 <script lang="ts">
-import { defineComponent } from "@vue/runtime-core";
+import { defineComponent } from "@vue/runtime-core"
 
 defineComponent({
   name: "DocumentSidebar",
-});
+})
 </script>
 
 <script lang="ts" setup>
@@ -259,5 +246,5 @@ let groups = [
       },
     ],
   },
-];
+]
 </script>

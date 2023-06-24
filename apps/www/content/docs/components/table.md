@@ -1,5 +1,5 @@
-# alert
+# table
 
-::Alert
+::Table
 The **alert** component.
 ::

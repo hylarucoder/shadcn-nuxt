@@ -1,5 +1,5 @@
-# alert
+# toast
 
-::Alert
+::Toast
 The **alert** component.
 ::

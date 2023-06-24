@@ -3,17 +3,9 @@
     <div
       dir="ltr"
       class="relative overflow-hidden max-w-[600px] lg:max-w-none"
-      style="
-        position: relative;
-        --radix-scroll-area-corner-width: 0px;
-        --radix-scroll-area-corner-height: 0px;
-      "
+      style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px"
     >
-      <div
-        data-radix-scroll-area-viewport=""
-        class="h-full w-full rounded-[inherit]"
-        style="overflow: scroll"
-      >
+      <div data-radix-scroll-area-viewport="" class="h-full w-full rounded-[inherit]" style="overflow: scroll">
         <div style="min-width: 100%; display: table">
           <div class="mb-4 flex items-center">
             <NuxtLink
@@ -88,5 +80,5 @@ let navlinks = [
     name: "Authentication",
     path: "/examples/authentication",
   },
-];
+]
 </script>

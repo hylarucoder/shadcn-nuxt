@@ -16,24 +16,16 @@
           >
             <circle cx="12" cy="12" r="10"></circle>
           </svg>
-          <span class="hidden font-bold sm:inline-block"
-            >shadcn/ui vue</span
-          ></NuxtLink
+          <span class="hidden font-bold sm:inline-block">shadcn/ui vue</span></NuxtLink
         >
         <nav class="flex items-center space-x-6 text-sm font-medium">
-          <NuxtLink
-            class="transition-colors hover:text-foreground/80 text-foreground/60"
-            to="/docs"
+          <NuxtLink class="transition-colors hover:text-foreground/80 text-foreground/60" to="/docs"
             >Documentation
           </NuxtLink>
-          <NuxtLink
-            class="transition-colors hover:text-foreground/80 text-foreground/60"
-            to="/docs/components"
+          <NuxtLink class="transition-colors hover:text-foreground/80 text-foreground/60" to="/docs/components"
             >Components
           </NuxtLink>
-          <NuxtLink
-            class="transition-colors hover:text-foreground/80 text-foreground"
-            to="/examples"
+          <NuxtLink class="transition-colors hover:text-foreground/80 text-foreground" to="/examples"
             >Examples
           </NuxtLink>
           <NuxtLink
@@ -69,9 +61,7 @@
         </svg>
         <span class="sr-only">Toggle Menu</span>
       </button>
-      <div
-        class="flex flex-1 items-center justify-between space-x-2 sm:space-x-4 md:justify-end"
-      >
+      <div class="flex flex-1 items-center justify-between space-x-2 sm:space-x-4 md:justify-end">
         <div class="w-full flex-1 md:w-auto md:flex-none">
           <button
             class="inline-flex items-center font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64"
@@ -85,11 +75,7 @@
           </button>
         </div>
         <nav class="flex items-center space-x-1">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/hylarucoder/shadcn-vue"
-          >
+          <a target="_blank" rel="noreferrer" href="https://github.com/hylarucoder/shadcn-vue">
             <div
               class="inline-flex items-center justify-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md w-9 px-0"
             >
@@ -101,11 +87,7 @@
               </svg>
               <span class="sr-only">GitHub</span>
             </div> </a
-          ><a
-            target="_blank"
-            rel="noreferrer"
-            href="https://twitter.com/hylarucoder"
-          >
+          ><a target="_blank" rel="noreferrer" href="https://twitter.com/hylarucoder">
             <div
               class="inline-flex items-center justify-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md w-9 px-0"
             >
@@ -182,5 +164,5 @@
 <script>
 export default {
   name: "NavHeader",
-};
+}
 </script>

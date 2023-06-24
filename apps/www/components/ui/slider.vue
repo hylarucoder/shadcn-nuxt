@@ -1,26 +1,24 @@
 <template>
-  <div
-    role="alert"
-    class="relative w-full rounded-lg border p-4 [&amp;:has(svg)]:pl-11 [&amp;>svg+div]:translate-y-[-3px] [&amp;>svg]:absolute [&amp;>svg]:left-4 [&amp;>svg]:top-4 [&amp;>svg]:text-foreground bg-background text-foreground"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      class="h-4 w-4"
-    >
-      <polyline points="4 17 10 11 4 5"></polyline>
-      <line x1="12" x2="20" y1="19" y2="19"></line>
-    </svg>
-    <h5 class="mb-1 font-medium leading-none tracking-tight">Heads up!</h5>
-    <div class="text-sm [&amp;_p]:leading-relaxed">
-      You can add components to your app using the cli.
-    </div>
-  </div>
+  <span
+    dir="ltr"
+    data-orientation="horizontal"
+    aria-disabled="false"
+    class="relative flex touch-none select-none items-center w-[60%]"
+    style="--radix-slider-thumb-transform: translateX(-50%)"
+    ><span data-orientation="horizontal" class="relative h-1.5 w-full grow overflow-hidden rounded-full bg-primary/20"
+      ><span data-orientation="horizontal" class="absolute h-full bg-primary" style="left: 0%; right: 67%"></span></span
+    ><span style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(33% + 2.72px)"
+      ><span
+        role="slider"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        aria-orientation="horizontal"
+        data-orientation="horizontal"
+        tabindex="0"
+        class="block h-4 w-4 rounded-full border border-primary/50 bg-background shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+        data-radix-collection-item=""
+        aria-valuenow="33"
+        style=""
+      ></span></span
+  ></span>
 </template>

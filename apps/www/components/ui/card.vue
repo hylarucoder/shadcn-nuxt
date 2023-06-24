@@ -1,14 +1,8 @@
 <template>
-  <div
-    class="rounded-lg border bg-card text-card-foreground shadow-sm w-[350px]"
-  >
+  <div class="rounded-lg border bg-card text-card-foreground shadow-sm w-[350px]">
     <div class="flex flex-col space-y-1.5 p-6">
-      <h3 class="text-2xl font-semibold leading-none tracking-tight">
-        Create project
-      </h3>
-      <p class="text-sm text-muted-foreground">
-        Deploy your new project in one-click.
-      </p>
+      <h3 class="text-2xl font-semibold leading-none tracking-tight">Create project</h3>
+      <p class="text-sm text-muted-foreground">Deploy your new project in one-click.</p>
     </div>
     <div class="p-6 pt-0">
       <form>

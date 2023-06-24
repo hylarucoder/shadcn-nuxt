@@ -27,24 +27,15 @@
         <span class="sr-only">Toggle</span>
       </button>
     </div>
-    <div class="rounded-md border px-4 py-3 font-mono text-sm">
-      @radix-ui/primitives
-    </div>
+    <div class="rounded-md border px-4 py-3 font-mono text-sm">@radix-ui/primitives</div>
     <div
       data-state="open"
       id="radix-:rck:"
       class="space-y-2"
-      style="
-        --radix-collapsible-content-height: 100px;
-        --radix-collapsible-content-width: 350px;
-      "
+      style="--radix-collapsible-content-height: 100px; --radix-collapsible-content-width: 350px"
     >
-      <div class="rounded-md border px-4 py-3 font-mono text-sm">
-        @radix-ui/colors
-      </div>
-      <div class="rounded-md border px-4 py-3 font-mono text-sm">
-        @stitches/react
-      </div>
+      <div class="rounded-md border px-4 py-3 font-mono text-sm">@radix-ui/colors</div>
+      <div class="rounded-md border px-4 py-3 font-mono text-sm">@stitches/react</div>
     </div>
   </div>
 </template>

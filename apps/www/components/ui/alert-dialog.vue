@@ -10,12 +10,9 @@
     style="pointer-events: auto"
   >
     <div class="flex flex-col space-y-2 text-center sm:text-left">
-      <h2 id="radix-:r53:" class="text-lg font-semibold">
-        Are you absolutely sure?
-      </h2>
+      <h2 id="radix-:r53:" class="text-lg font-semibold">Are you absolutely sure?</h2>
       <p id="radix-:r54:" class="text-sm text-muted-foreground">
-        This action cannot be undone. This will permanently delete your account
-        and remove your data from our servers.
+        This action cannot be undone. This will permanently delete your account and remove your data from our servers.
       </p>
     </div>
     <div class="flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2">

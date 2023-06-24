@@ -1,26 +1,23 @@
 <template>
-  <div
-    role="alert"
-    class="relative w-full rounded-lg border p-4 [&amp;:has(svg)]:pl-11 [&amp;>svg+div]:translate-y-[-3px] [&amp;>svg]:absolute [&amp;>svg]:left-4 [&amp;>svg]:top-4 [&amp;>svg]:text-foreground bg-background text-foreground"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      class="h-4 w-4"
+  <div class="flex items-center space-x-2">
+    <button
+      type="button"
+      role="switch"
+      aria-checked="false"
+      data-state="unchecked"
+      value="on"
+      class="peer inline-flex h-[20px] w-[36px] shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=unchecked]:bg-input"
+      id="airplane-mode"
     >
-      <polyline points="4 17 10 11 4 5"></polyline>
-      <line x1="12" x2="20" y1="19" y2="19"></line>
-    </svg>
-    <h5 class="mb-1 font-medium leading-none tracking-tight">Heads up!</h5>
-    <div class="text-sm [&amp;_p]:leading-relaxed">
-      You can add components to your app using the cli.
-    </div>
+      <span
+        data-state="unchecked"
+        class="pointer-events-none block h-4 w-4 rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-4 data-[state=unchecked]:translate-x-0"
+      ></span>
+    </button>
+    <label
+      class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+      for="airplane-mode"
+      >Airplane Mode</label
+    >
   </div>
 </template>

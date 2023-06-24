@@ -68,9 +68,7 @@
           role="presentation"
           data-value="suggestions"
         >
-          <div cmdk-group-heading="" aria-hidden="true" id=":rgh:">
-            Suggestions
-          </div>
+          <div cmdk-group-heading="" aria-hidden="true" id=":rgh:">Suggestions</div>
           <div cmdk-group-items="" role="group" aria-labelledby=":rgh:">
             <div
               class="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none aria-selected:bg-accent aria-selected:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
@@ -155,20 +153,14 @@
             </div>
           </div>
         </div>
-        <div
-          class="-mx-1 h-px bg-border"
-          cmdk-separator=""
-          role="separator"
-        ></div>
+        <div class="-mx-1 h-px bg-border" cmdk-separator="" role="separator"></div>
         <div
           class="overflow-hidden p-1 text-foreground [&amp;_[cmdk-group-heading]]:px-2 [&amp;_[cmdk-group-heading]]:py-1.5 [&amp;_[cmdk-group-heading]]:text-xs [&amp;_[cmdk-group-heading]]:font-medium [&amp;_[cmdk-group-heading]]:text-muted-foreground"
           cmdk-group=""
           role="presentation"
           data-value="settings"
         >
-          <div cmdk-group-heading="" aria-hidden="true" id=":rgm:">
-            Settings
-          </div>
+          <div cmdk-group-heading="" aria-hidden="true" id=":rgm:">Settings</div>
           <div cmdk-group-items="" role="group" aria-labelledby=":rgm:">
             <div
               class="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none aria-selected:bg-accent aria-selected:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
@@ -191,11 +183,7 @@
                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
               </svg>
-              <span>Profile</span
-              ><span
-                class="ml-auto text-xs tracking-widest text-muted-foreground"
-                >⌘P</span
-              >
+              <span>Profile</span><span class="ml-auto text-xs tracking-widest text-muted-foreground">⌘P</span>
             </div>
             <div
               class="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none aria-selected:bg-accent aria-selected:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
@@ -218,11 +206,7 @@
                 <rect width="20" height="14" x="2" y="5" rx="2"></rect>
                 <line x1="2" x2="22" y1="10" y2="10"></line>
               </svg>
-              <span>Billing</span
-              ><span
-                class="ml-auto text-xs tracking-widest text-muted-foreground"
-                >⌘B</span
-              >
+              <span>Billing</span><span class="ml-auto text-xs tracking-widest text-muted-foreground">⌘B</span>
             </div>
             <div
               class="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none aria-selected:bg-accent aria-selected:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
@@ -249,11 +233,7 @@
                 ></path>
                 <circle cx="12" cy="12" r="3"></circle>
               </svg>
-              <span>Settings</span
-              ><span
-                class="ml-auto text-xs tracking-widest text-muted-foreground"
-                >⌘S</span
-              >
+              <span>Settings</span><span class="ml-auto text-xs tracking-widest text-muted-foreground">⌘S</span>
             </div>
           </div>
         </div>

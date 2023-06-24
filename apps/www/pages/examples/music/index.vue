@@ -116,9 +116,7 @@
             <div class="pb-12 hidden lg:block">
               <div class="space-y-4 py-4">
                 <div class="px-4 py-2">
-                  <h2 class="mb-2 px-2 text-lg font-semibold tracking-tight">
-                    Discover
-                  </h2>
+                  <h2 class="mb-2 px-2 text-lg font-semibold tracking-tight">Discover</h2>
                   <div class="space-y-1">
                     <button
                       class="inline-flex items-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-secondary text-secondary-foreground hover:bg-secondary/80 h-9 px-3 rounded-md w-full justify-start"
@@ -188,9 +186,7 @@
                   </div>
                 </div>
                 <div class="px-4 py-2">
-                  <h2 class="mb-2 px-2 text-lg font-semibold tracking-tight">
-                    Library
-                  </h2>
+                  <h2 class="mb-2 px-2 text-lg font-semibold tracking-tight">Library</h2>
                   <div class="space-y-1">
                     <button
                       class="inline-flex items-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground h-9 px-3 rounded-md w-full justify-start"
@@ -208,9 +204,7 @@
                         class="mr-2 h-4 w-4"
                       >
                         <path d="M21 15V6"></path>
-                        <path
-                          d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                        ></path>
+                        <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                         <path d="M12 12H3"></path>
                         <path d="M16 6H3"></path>
                         <path d="M12 18H3"></path>
@@ -252,9 +246,7 @@
                         stroke-linejoin="round"
                         class="mr-2 h-4 w-4"
                       >
-                        <path
-                          d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
-                        ></path>
+                        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                         <circle cx="12" cy="7" r="4"></circle>
                       </svg>
                       Made for You
@@ -274,9 +266,7 @@
                         stroke-linejoin="round"
                         class="mr-2 h-4 w-4"
                       >
-                        <path
-                          d="m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"
-                        ></path>
+                        <path d="m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"></path>
                         <circle cx="17" cy="7" r="5"></circle>
                       </svg>
                       Artists
@@ -306,11 +296,7 @@
                   </div>
                 </div>
                 <div class="py-2">
-                  <h2
-                    class="relative px-6 text-lg font-semibold tracking-tight"
-                  >
-                    Playlists
-                  </h2>
+                  <h2 class="relative px-6 text-lg font-semibold tracking-tight">Playlists</h2>
                   <div
                     dir="ltr"
                     class="relative overflow-hidden h-[300px] px-2"
@@ -343,9 +329,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -368,9 +352,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -393,9 +375,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -418,9 +398,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -443,9 +421,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -468,9 +444,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -493,9 +467,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -518,9 +490,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -543,9 +513,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -568,9 +536,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -593,9 +559,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -618,9 +582,7 @@
                               class="mr-2 h-4 w-4"
                             >
                               <path d="M21 15V6"></path>
-                              <path
-                                d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
-                              ></path>
+                              <path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
                               <path d="M12 12H3"></path>
                               <path d="M16 6H3"></path>
                               <path d="M12 18H3"></path>
@@ -636,11 +598,7 @@
             </div>
             <div class="col-span-3 lg:col-span-4 lg:border-l">
               <div class="h-full px-4 py-6 lg:px-8">
-                <div
-                  dir="ltr"
-                  data-orientation="horizontal"
-                  class="h-full space-y-6"
-                >
+                <div dir="ltr" data-orientation="horizontal" class="h-full space-y-6">
                   <div class="space-between flex items-center">
                     <div
                       role="tablist"
@@ -731,19 +689,11 @@
                   >
                     <div class="flex items-center justify-between">
                       <div class="space-y-1">
-                        <h2 class="text-2xl font-semibold tracking-tight">
-                          Listen Now
-                        </h2>
-                        <p class="text-sm text-muted-foreground">
-                          Top picks for you. Updated daily.
-                        </p>
+                        <h2 class="text-2xl font-semibold tracking-tight">Listen Now</h2>
+                        <p class="text-sm text-muted-foreground">Top picks for you. Updated daily.</p>
                       </div>
                     </div>
-                    <div
-                      data-orientation="horizontal"
-                      role="none"
-                      class="shrink-0 bg-border h-[1px] w-full my-4"
-                    ></div>
+                    <div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full my-4"></div>
                     <div class="relative">
                       <div
                         dir="ltr"
@@ -781,12 +731,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    React Rendezvous
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Ethan Byte
-                                  </p>
+                                  <h3 class="font-medium leading-none">React Rendezvous</h3>
+                                  <p class="text-xs text-muted-foreground">Ethan Byte</p>
                                 </div>
                               </div>
                               <div class="space-y-3 w-[250px]">
@@ -809,12 +755,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    Async Awakenings
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Nina Netcode
-                                  </p>
+                                  <h3 class="font-medium leading-none">Async Awakenings</h3>
+                                  <p class="text-xs text-muted-foreground">Nina Netcode</p>
                                 </div>
                               </div>
                               <div class="space-y-3 w-[250px]">
@@ -837,12 +779,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    The Art of Reusability
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Lena Logic
-                                  </p>
+                                  <h3 class="font-medium leading-none">The Art of Reusability</h3>
+                                  <p class="text-xs text-muted-foreground">Lena Logic</p>
                                 </div>
                               </div>
                               <div class="space-y-3 w-[250px]">
@@ -865,12 +803,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    Stateful Symphony
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Beth Binary
-                                  </p>
+                                  <h3 class="font-medium leading-none">Stateful Symphony</h3>
+                                  <p class="text-xs text-muted-foreground">Beth Binary</p>
                                 </div>
                               </div>
                             </div>
@@ -879,18 +813,10 @@
                       </div>
                     </div>
                     <div class="mt-6 space-y-1">
-                      <h2 class="text-2xl font-semibold tracking-tight">
-                        Made for You
-                      </h2>
-                      <p class="text-sm text-muted-foreground">
-                        Your personal playlists. Updated daily.
-                      </p>
+                      <h2 class="text-2xl font-semibold tracking-tight">Made for You</h2>
+                      <p class="text-sm text-muted-foreground">Your personal playlists. Updated daily.</p>
                     </div>
-                    <div
-                      data-orientation="horizontal"
-                      role="none"
-                      class="shrink-0 bg-border h-[1px] w-full my-4"
-                    ></div>
+                    <div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full my-4"></div>
                     <div class="relative">
                       <div
                         dir="ltr"
@@ -928,12 +854,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    Thinking Components
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Lena Logic
-                                  </p>
+                                  <h3 class="font-medium leading-none">Thinking Components</h3>
+                                  <p class="text-xs text-muted-foreground">Lena Logic</p>
                                 </div>
                               </div>
                               <div class="space-y-3 w-[150px]">
@@ -956,12 +878,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    Functional Fury
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Beth Binary
-                                  </p>
+                                  <h3 class="font-medium leading-none">Functional Fury</h3>
+                                  <p class="text-xs text-muted-foreground">Beth Binary</p>
                                 </div>
                               </div>
                               <div class="space-y-3 w-[150px]">
@@ -984,12 +902,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    React Rendezvous
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Ethan Byte
-                                  </p>
+                                  <h3 class="font-medium leading-none">React Rendezvous</h3>
+                                  <p class="text-xs text-muted-foreground">Ethan Byte</p>
                                 </div>
                               </div>
                               <div class="space-y-3 w-[150px]">
@@ -1012,12 +926,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    Stateful Symphony
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Beth Binary
-                                  </p>
+                                  <h3 class="font-medium leading-none">Stateful Symphony</h3>
+                                  <p class="text-xs text-muted-foreground">Beth Binary</p>
                                 </div>
                               </div>
                               <div class="space-y-3 w-[150px]">
@@ -1040,12 +950,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    Async Awakenings
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Nina Netcode
-                                  </p>
+                                  <h3 class="font-medium leading-none">Async Awakenings</h3>
+                                  <p class="text-xs text-muted-foreground">Nina Netcode</p>
                                 </div>
                               </div>
                               <div class="space-y-3 w-[150px]">
@@ -1068,12 +974,8 @@
                                     /></div
                                 ></span>
                                 <div class="space-y-1 text-sm">
-                                  <h3 class="font-medium leading-none">
-                                    The Art of Reusability
-                                  </h3>
-                                  <p class="text-xs text-muted-foreground">
-                                    Lena Logic
-                                  </p>
+                                  <h3 class="font-medium leading-none">The Art of Reusability</h3>
+                                  <p class="text-xs text-muted-foreground">Lena Logic</p>
                                 </div>
                               </div>
                             </div>
@@ -1102,8 +1004,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import ExampleHero from "~/components/ExampleHero.vue";
-import NavHeader from "~/components/NavHeader.vue";
-import NavFooter from "~/components/PageFooter.vue";
-import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue";
+import ExampleHero from "~/components/ExampleHero.vue"
+import NavHeader from "~/components/NavHeader.vue"
+import NavFooter from "~/components/PageFooter.vue"
+import ExampleLinks from "~/pages/examples/components/ExampleLinks.vue"
 </script>

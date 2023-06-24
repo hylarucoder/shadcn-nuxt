@@ -1,5 +1,5 @@
-# alert
+# slider
 
-::Alert
+::Slider
 The **alert** component.
 ::

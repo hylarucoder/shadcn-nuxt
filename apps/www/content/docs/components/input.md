@@ -1,5 +1,5 @@
-# alert
+# input
 
-::Alert
+::Input
 The **alert** component.
 ::

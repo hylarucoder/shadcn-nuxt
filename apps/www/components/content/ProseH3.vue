@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { useRuntimeConfig } from '#imports'
+import { useRuntimeConfig } from "#imports"
 defineProps<{ id?: string }>()
 const heading = 3
 const { anchorLinks } = useRuntimeConfig().public.content

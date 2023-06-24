@@ -1,5 +1,5 @@
-# alert
+# hover card
 
-::Alert
+::HoverCard
 The **alert** component.
 ::

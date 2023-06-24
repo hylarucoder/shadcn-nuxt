@@ -1,5 +1,5 @@
-# alert
+# tabs
 
-::Alert
+::Tabs
 The **alert** component.
 ::

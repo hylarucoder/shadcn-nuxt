@@ -1,5 +1,5 @@
-# alert
+# switch
 
-::Alert
+::Switch
 The **alert** component.
 ::

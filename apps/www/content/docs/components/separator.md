@@ -1,5 +1,5 @@
-# alert
+# separator
 
-::Alert
+::Separator
 The **alert** component.
 ::

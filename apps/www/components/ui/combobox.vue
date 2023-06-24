@@ -8,23 +8,14 @@
     class="z-50 rounded-md border bg-popover text-popover-foreground shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[200px] p-0"
     tabindex="-1"
     style="
-      --radix-popover-content-transform-origin: var(
-        --radix-popper-transform-origin
-      );
-      --radix-popover-content-available-width: var(
-        --radix-popper-available-width
-      );
-      --radix-popover-content-available-height: var(
-        --radix-popper-available-height
-      );
+      --radix-popover-content-transform-origin: var(--radix-popper-transform-origin);
+      --radix-popover-content-available-width: var(--radix-popper-available-width);
+      --radix-popover-content-available-height: var(--radix-popper-available-height);
       --radix-popover-trigger-width: var(--radix-popper-anchor-width);
       --radix-popover-trigger-height: var(--radix-popper-anchor-height);
     "
   >
-    <div
-      class="flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground"
-      cmdk-root=""
-    >
+    <div class="flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground" cmdk-root="">
       <label
         cmdk-label=""
         for=":rec:"
