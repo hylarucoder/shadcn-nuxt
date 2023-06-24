@@ -4,7 +4,7 @@
   >
     <div class="container flex h-14 items-center">
       <div class="mr-4 hidden md:flex">
-        <a class="mr-6 flex items-center space-x-2" href="/apps/www/public">
+        <NuxtLink class="mr-6 flex items-center space-x-2" href="/">
           <svg
             viewBox="0 0 24 24"
             fill="currentColor"
@@ -16,26 +16,31 @@
           >
             <circle cx="12" cy="12" r="10"></circle>
           </svg>
-          <span class="hidden font-bold sm:inline-block">shadcn/ui</span></a
+          <span class="hidden font-bold sm:inline-block"
+            >shadcn/ui vue</span
+          ></NuxtLink
         >
         <nav class="flex items-center space-x-6 text-sm font-medium">
-          <a
+          <NuxtLink
             class="transition-colors hover:text-foreground/80 text-foreground/60"
-            href="/docs"
-            >Documentation</a
-          ><a
+            to="/docs"
+            >Documentation
+          </NuxtLink>
+          <NuxtLink
             class="transition-colors hover:text-foreground/80 text-foreground/60"
-            href="/docs/components"
-            >Components</a
-          ><a
+            to="/docs/components"
+            >Components
+          </NuxtLink>
+          <NuxtLink
             class="transition-colors hover:text-foreground/80 text-foreground"
-            href="/examples"
-            >Examples</a
-          ><a
+            to="/examples"
+            >Examples
+          </NuxtLink>
+          <NuxtLink
             class="hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
-            href="https://github.com/hylarucoder/shadcn-vue"
-            >GitHub</a
-          >
+            to="https://github.com/hylarucoder/shadcn-vue"
+            >GitHub
+          </NuxtLink>
         </nav>
       </div>
       <button
@@ -99,7 +104,7 @@
           ><a
             target="_blank"
             rel="noreferrer"
-            href="https://twitter.com/shadcn"
+            href="https://twitter.com/hylarucoder"
           >
             <div
               class="inline-flex items-center justify-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md w-9 px-0"

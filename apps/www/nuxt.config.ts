@@ -2,6 +2,21 @@ import { pwa } from "./config/pwa";
 import { appDescription } from "./constants/index";
 
 export default defineNuxtConfig({
+  routeRules: {
+    "/": { redirect: "/examples/dashboard" },
+    "/external-route": { redirect: "https://example.com" },
+  },
+  components: [
+    {
+      path: "~/components",
+      extensions: [".vue"],
+    },
+    {
+      path: "~/components/ui",
+      extensions: [".vue"],
+      global: true,
+    },
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -9,12 +24,22 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    "@nuxt/content",
     "@vueuse/nuxt",
     "@pinia/nuxt",
     "@nuxtjs/color-mode",
     "@vite-pwa/nuxt",
   ],
-
+  content: {
+    documentDriven: true,
+    highlight: {
+      // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
+      theme: {
+        dark: "github-dark",
+        default: "github-light",
+      },
+    },
+  },
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed

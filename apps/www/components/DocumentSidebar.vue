@@ -29,6 +29,7 @@
                 <NuxtLink
                   class="group flex w-full items-center rounded-md border border-transparent px-2 py-1 hover:underline text-muted-foreground"
                   :to="child.link"
+                  active-class="text-black font-bold"
                 >
                   {{ child.name }}
                 </NuxtLink>

@@ -1,0 +1,8 @@
+<template>
+  <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+    ><img
+      class="aspect-square h-full w-full"
+      alt="@shadcn"
+      src="https://github.com/shadcn.png"
+  /></span>
+</template>
