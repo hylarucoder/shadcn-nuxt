@@ -11,6 +11,9 @@ importers:
       '@changesets/cli':
         specifier: ^2.26.1
         version: registry.npmmirror.com/@changesets/cli@2.26.1
+      eslint-plugin-vue:
+        specifier: ^9.15.1
+        version: registry.npmmirror.com/eslint-plugin-vue@9.15.1(eslint@8.42.0)
       husky:
         specifier: ^8.0.3
         version: registry.npmmirror.com/husky@8.0.3
@@ -5816,6 +5819,27 @@ packages:
       eslint-config-prettier: registry.npmmirror.com/eslint-config-prettier@8.8.0(eslint@8.42.0)
       prettier: registry.npmmirror.com/prettier@2.8.8
       prettier-linter-helpers: registry.npmmirror.com/prettier-linter-helpers@1.0.0
+    dev: true
+
+  registry.npmmirror.com/eslint-plugin-vue@9.15.1(eslint@8.42.0):
+    resolution: {integrity: sha512-CJE/oZOslvmAR9hf8SClTdQ9JLweghT6JCBQNrT2Iel1uVw0W0OLJxzvPd6CxmABKCvLrtyDnqGV37O7KQv6+A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-vue/-/eslint-plugin-vue-9.15.1.tgz}
+    id: registry.npmmirror.com/eslint-plugin-vue/9.15.1
+    name: eslint-plugin-vue
+    version: 9.15.1
+    engines: {node: ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
+    dependencies:
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.42.0)
+      eslint: registry.npmmirror.com/eslint@8.42.0
+      natural-compare: registry.npmmirror.com/natural-compare@1.4.0
+      nth-check: registry.npmmirror.com/nth-check@2.1.1
+      postcss-selector-parser: registry.npmmirror.com/postcss-selector-parser@6.0.13
+      semver: registry.npmmirror.com/semver@7.5.2
+      vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser@9.3.1(eslint@8.42.0)
+      xml-name-validator: registry.npmmirror.com/xml-name-validator@4.0.0
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   registry.npmmirror.com/eslint-scope@7.2.0:
@@ -13278,6 +13302,27 @@ packages:
     version: 0.1.0
     dev: true
 
+  registry.npmmirror.com/vue-eslint-parser@9.3.1(eslint@8.42.0):
+    resolution: {integrity: sha512-Clr85iD2XFZ3lJ52/ppmUDG/spxQu6+MAeHXjjyI4I1NUYZ9xmenQp4N0oaHJhrA8OOxltCVxMRfANGa70vU0g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-9.3.1.tgz}
+    id: registry.npmmirror.com/vue-eslint-parser/9.3.1
+    name: vue-eslint-parser
+    version: 9.3.1
+    engines: {node: ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      debug: registry.npmmirror.com/debug@4.3.4
+      eslint: registry.npmmirror.com/eslint@8.42.0
+      eslint-scope: registry.npmmirror.com/eslint-scope@7.2.0
+      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys@3.4.1
+      espree: registry.npmmirror.com/espree@9.5.2
+      esquery: registry.npmmirror.com/esquery@1.5.0
+      lodash: registry.npmmirror.com/lodash@4.17.21
+      semver: registry.npmmirror.com/semver@7.5.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4):
     resolution: {integrity: sha512-cChBPPmAflgBGmy3tBsjeoe3f3VOSG6naKyY5pjtrqLGbNEXdzCigFUHgBvp9e3ysAtFtEx7OLqcSDh/1Cq2TQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-router/-/vue-router-4.2.2.tgz}
     id: registry.npmmirror.com/vue-router/4.2.2
@@ -13746,6 +13791,13 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
+    dev: true
+
+  registry.npmmirror.com/xml-name-validator@4.0.0:
+    resolution: {integrity: sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/xml-name-validator/-/xml-name-validator-4.0.0.tgz}
+    name: xml-name-validator
+    version: 4.0.0
+    engines: {node: '>=12'}
     dev: true
 
   registry.npmmirror.com/xmlhttprequest-ssl@2.0.0:

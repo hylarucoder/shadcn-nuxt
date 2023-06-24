@@ -1,3 +1,4 @@
+<script lang="ts"></script>
 <template>
   <div
     data-radix-popper-content-wrapper=""
@@ -35,7 +36,7 @@
           ><img class="aspect-square h-full w-full" src="https://github.com/vercel.png"
         /></span>
         <div class="space-y-1">
-          <h4 class="text-sm font-semibold">@nextjs</h4>
+          <h4 class="text-sm font-semibold">@nuxtjs</h4>
           <p class="text-sm">The React Framework – created and maintained by @vercel.</p>
           <div class="flex items-center pt-2">
             <svg
